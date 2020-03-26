@@ -1,12 +1,11 @@
 function konversiMenit(menit) {
     var minute = 0;
 
-    if (menit >= 60){
-        while (menit >= 60){
-            minute +=1;
-            menit -= 60;            
-        }        
-    }
+    while (menit >= 60){
+       minute +=1;
+       menit -= 60;            
+    }        
+    
     return minute + ':' + (menit <= 10? '0' + menit: menit)    
   }
   
