@@ -6,7 +6,7 @@ function konversiMenit(menit) {
        menit -= 60;            
     }        
     
-    return minute + ':' + (menit <= 10? '0' + menit: menit)    
+    return minute + ':' + (menit < 10? '0' + menit: menit)    
   }
   
   // TEST CASES
