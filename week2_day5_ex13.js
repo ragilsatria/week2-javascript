@@ -16,7 +16,7 @@ function xo(str) {
         z--;
     }
 
-    if (x >= 3 && o >= 3){
+    if (x === o){
         return true;
     }
     else {
